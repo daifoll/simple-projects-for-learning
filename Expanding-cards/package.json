@@ -1,0 +1,16 @@
+{
+  "name": "expanding_cards",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docs": "jsdoc -c jsdoc.conf",
+    "dev": "browser-sync start --server './*.html' --files './**/*'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kirill Kobykhnov (@daifoll)",
+  "license": "ISC",
+  "devDependencies": {
+    "jsdoc": "^4.0.2"
+  }
+}
